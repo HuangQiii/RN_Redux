@@ -4,7 +4,7 @@ import List from '../components/List';
 import Loading from '../components/Loading';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { connect } from 'react-redux';
-import *as loginAction from '../actions/loginAction';
+import *as MenuAction from '../actions/MenuAction';
 
 let CONNECT_BOOL;
 const { width, height } = Dimensions.get('window');
@@ -309,24 +309,24 @@ var styles = StyleSheet.create({
 
 export default connect(
     (state) => ({
-        userHeadImage: state.loginIn.userHeadImage,
-        userName: state.loginIn.userName,
-        userEmail: state.loginIn.userEmail,
-        organizationShow: state.loginIn.organizationShow,
-        currentOrganization: state.loginIn.currentOrganization,
-        dataOrgSource: state.loginIn.dataOrgSource,
-        currentProject: state.loginIn.currentProject,
-        dataLatestOpenSource: state.loginIn.dataLatestOpenSource,
-        list: state.loginIn.list,
-        dataListSource: state.loginIn.dataListSource,
-        downloading: state.loginIn.downloading,
-        loading: state.loginIn.loading,
+        userHeadImage: state.Menu.userHeadImage,
+        userName: state.Menu.userName,
+        userEmail: state.Menu.userEmail,
+        organizationShow: state.Menu.organizationShow,
+        currentOrganization: state.Menu.currentOrganization,
+        dataOrgSource: state.Menu.dataOrgSource,
+        currentProject: state.Menu.currentProject,
+        dataLatestOpenSource: state.Menu.dataLatestOpenSource,
+        list: state.Menu.list,
+        dataListSource: state.Menu.dataListSource,
+        downloading: state.Menu.downloading,
+        loading: state.Menu.loading,
     }),
     (dispatch) => ({
-        getMessage: () => dispatch(loginAction.getMessage()),
-        selectOrganization: (organization) => dispatch(loginAction.selectOrganization(organization)),
-        selectProject: (project) => dispatch(loginAction.selectProject(project)),
-        selectList: (list) => dispatch(loginAction.selectList(list)),
-        changeOrganizationShow: () => dispatch(loginAction.changeOrganizationShow()),
+        getMessage: () => dispatch(MenuAction.getMessage()),
+        selectOrganization: (organization) => dispatch(MenuAction.selectOrganization(organization)),
+        selectProject: (project) => dispatch(MenuAction.selectProject(project)),
+        selectList: (list) => dispatch(MenuAction.selectList(list)),
+        changeOrganizationShow: () => dispatch(MenuAction.changeOrganizationShow()),
     })
 )(Menu)

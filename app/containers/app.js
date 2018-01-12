@@ -1,4 +1,4 @@
-import { StackNavigator, TabNavigator, NavigationActions } from 'react-navigation';
+import { StackNavigator } from 'react-navigation';
 import Menu from '../pages/Menu';
 import SelectProjects from '../pages/SelectProjects';
 

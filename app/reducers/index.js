@@ -1,10 +1,10 @@
 'use strict';
 
 import { combineReducers } from 'redux';
-import loginIn from './loginReducer';
+import Menu from './MenuReducer';
 
 const rootReducer = combineReducers({
-    loginIn: loginIn,
+    Menu: Menu,
 });
 
 export default rootReducer;
