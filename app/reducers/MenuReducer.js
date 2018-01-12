@@ -16,6 +16,9 @@ const initialState = {
     dataListSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => true }),
     downloading: [],
     loading: true,
+
+    dataSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => true }),
+    loading1: true
 }
 
 export default function Menu(state = initialState, action) {
@@ -94,6 +97,16 @@ export default function Menu(state = initialState, action) {
                 ...state,
                 downloading: arr1,
                 list: ''
+            }
+        case types.GET_PROJECTS_ING:
+            return {
+                ...state,
+            }
+        case types.GET_PROJECTS_Success:
+            return {
+                ...state,
+                loading1: false,
+                dataSource: state.dataSource.cloneWithRows(action.projects),
             }
         default:
             return state;

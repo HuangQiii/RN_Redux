@@ -11,10 +11,6 @@ const { width, height } = Dimensions.get('window');
 class Menu extends Component {
 
     componentWillMount() {
-        AppState.addEventListener(
-            'change',
-            (appState) => { this.handleAppStateChange(appState) }
-        );
         NetInfo.isConnected.addEventListener(
             'connectionChange',
             (isConnected) => { this.handleIsConnectedChange(isConnected) }
@@ -26,7 +22,6 @@ class Menu extends Component {
     }
 
     componentWillUnmount() {
-        AppState.removeEventListener('change', this.handleAppStateChange);
         NetInfo.isConnected.removeEventListener('connectionChange', this.handleIsConnectedChange);
     }
 

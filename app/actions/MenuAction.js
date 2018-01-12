@@ -15,6 +15,7 @@ const LIST_ARRAY = [
     { name: 'II', icon: 'md-contact' },
     { name: 'JJ', icon: 'md-settings' },
 ];
+const PRE_PRO = ['A', 'B', 'C', 'D', 'E', 'F'];
 let ARRAY_TEMP = [];
 
 export function getMessage() {
@@ -118,5 +119,27 @@ function removeDownloadingList(list) {
     return {
         type: types.REMOVE_LIST_DOWNLOADING,
         list: list
+    }
+}
+
+export function getProjects() {
+    return dispatch => {
+        dispatch(getProjectsIng());
+        setTimeout(() => {
+            dispatch(getProjectsSuccess(PRE_PRO));
+        }, 5000);
+    }
+}
+
+function getProjectsIng() {
+    return {
+        type: types.GET_PROJECTS_ING
+    }
+}
+
+function getProjectsSuccess(projects) {
+    return {
+        type: types.GET_PROJECTS_Success,
+        projects: projects
     }
 }

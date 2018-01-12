@@ -4,9 +4,11 @@ import List from '../components/List';
 import Button from '../components/Button';
 import Loading from '../components/Loading';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { connect } from 'react-redux';
+import *as MenuAction from '../actions/MenuAction';
 
 const PRE_PRO = ['A', 'B', 'C', 'D', 'E', 'F'];
-export default class SelectProjects extends Component {
+class SelectProjects extends Component {
 
     static navigationOptions = ({ navigation }) => ({
         title: `${navigation.state.params.org}下的所有项目`,
@@ -21,29 +23,12 @@ export default class SelectProjects extends Component {
         )
     });
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            loading: true,
-            dataSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
-        };
-    }
-
     componentDidMount() {
-        this.getProjects();
-    }
-
-    getProjects() {
-        setTimeout(() => {
-            this.setState({
-                loading: false,
-                dataSource: this.state.dataSource.cloneWithRows(PRE_PRO)
-            })
-        }, 3000);
+        this.props.getProjects();
     }
 
     chooseProject(project) {
-        DeviceEventEmitter.emit('chooseProject', project);
+        this.props.selectProject(project);
         this.props.navigation.dispatch({
             key: 'Menu',
             type: 'BcakToCurrentScreen',
@@ -64,12 +49,12 @@ export default class SelectProjects extends Component {
         return (
             <View style={styles.container}>
                 {
-                    this.state.loading &&
+                    this.props.loading1 &&
                     <Loading />
                 }
 
                 <ListView
-                    dataSource={this.state.dataSource}
+                    dataSource={this.props.dataSource}
                     renderRow={this.renderProject.bind(this)}
                 />
             </View >
@@ -83,3 +68,14 @@ var styles = StyleSheet.create({
         backgroundColor: '#FEFEFE',
     }
 });
+
+export default connect(
+    (state) => ({
+        loading1: state.Menu.loading1,
+        dataSource: state.Menu.dataSource,
+    }),
+    (dispatch) => ({
+        getProjects: () => dispatch(MenuAction.getProjects()),
+        selectProject: (project) => dispatch(MenuAction.selectProject(project)),
+    })
+)(SelectProjects)
