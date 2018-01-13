@@ -25,8 +25,10 @@ This project is licenced under the [MIT License](http://opensource.org/licenses/
 - [x] 组织——项目——实体层结构搭建
 - [x] 切换逻辑和模拟操作
 - [x] 网络情况变化情况
+- [x] 拆分Reducer
 - [ ] 搜索
 - [ ] 通用对象
 - [ ] FlatList替代ListView
 - [ ] 模拟数据
 - [ ] 彻底解决ListView优化渲染带来的问题
+- [ ] 更多逻辑...
