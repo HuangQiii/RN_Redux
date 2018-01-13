@@ -6,6 +6,7 @@ import Loading from '../components/Loading';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { connect } from 'react-redux';
 import *as MenuAction from '../actions/MenuAction';
+import *as SelectProjectsAction from '../actions/SelectProjectsAction';
 
 const PRE_PRO = ['A', 'B', 'C', 'D', 'E', 'F'];
 class SelectProjects extends Component {
@@ -71,11 +72,11 @@ var styles = StyleSheet.create({
 
 export default connect(
     (state) => ({
-        loading1: state.Menu.loading1,
-        dataSource: state.Menu.dataSource,
+        loading1: state.SelectProjects.loading1,
+        dataSource: state.SelectProjects.dataSource,
     }),
     (dispatch) => ({
-        getProjects: () => dispatch(MenuAction.getProjects()),
+        getProjects: () => dispatch(SelectProjectsAction.getProjects()),
         selectProject: (project) => dispatch(MenuAction.selectProject(project)),
     })
 )(SelectProjects)
