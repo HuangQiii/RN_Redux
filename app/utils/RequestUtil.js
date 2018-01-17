@@ -9,7 +9,14 @@ const request = (url, token, method = 'get', body) => {
             headers: header,
             body
         })
-            .then((response) => response.json())
+            .then((response) => {
+                if (response.status != 200) {
+                    return Promise.resolve(response);
+                } else {
+                    console.log(response.status);
+                    return response.json();
+                }
+            })
             .then((responseData) => {
                 if (responseData.error === 'invalid_token') {
                     console.log('invalid_token,should back to Login');
