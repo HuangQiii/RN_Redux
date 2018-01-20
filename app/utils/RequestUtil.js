@@ -11,7 +11,7 @@ const request = (url, token, method = 'get', body) => {
         })
             .then((response) => {
                 const status = response.status;
-                if (status === 200) {
+                if (response.ok) {
                     return response.json();
                 } else {
                     switch (status) {
