@@ -10,13 +10,30 @@ const request = (url, token, method = 'get', body) => {
             body
         })
             .then((response) => {
-                if (response.status === 200) {
+                const status = response.status;
+                if (status === 200) {
                     return response.json();
                 } else {
-                    if (response.status === 401) {
-                        console.log('401,全局处理');
-                    } else if (response.status === 500) {
-                        console.log('500,全局处理');
+                    switch (status) {
+                        case 401: {
+                            console.log('401 , invalid_token');
+                            break;
+                        }
+                        case 403: {
+                            console.log('403 , access_denied');
+                            break;
+                        }
+                        case 404: {
+                            console.log('404 , Not Found');
+                            break;
+                        }
+                        case 500: {
+                            console.log('500 , 服务器内部错误');
+                            break;
+                        }
+                        default: {
+                            break;
+                        }
                     }
                     return Promise.resolve(response);
                 }
