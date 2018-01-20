@@ -11,7 +11,7 @@ const request = (url, token, method = 'get', body) => {
         })
             .then((response) => {
                 const status = response.status;
-                if (response.ok) {
+                if (status === 200) {
                     return response.json();
                 } else {
                     switch (status) {
@@ -35,7 +35,11 @@ const request = (url, token, method = 'get', body) => {
                             break;
                         }
                     }
-                    return Promise.resolve(response);
+                    if (response.ok) {
+                        return Promise.resolve(response);
+                    } else {
+                        return Promise.reject(response);
+                    }
                 }
             })
             .then((responseData) => {
@@ -46,6 +50,7 @@ const request = (url, token, method = 'get', body) => {
                 }
             })
             .catch((error) => {
+                console.log('catch');
                 reject(error);
             });
     });
