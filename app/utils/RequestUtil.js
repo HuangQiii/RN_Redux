@@ -16,26 +16,30 @@ const request = (url, token, method = 'get', body) => {
                 } else {
                     switch (status) {
                         case 401: {
-                            console.log('401 , invalid_token');
+                            console.log('401 , invalid_token , 全局处理');
                             break;
                         }
                         case 403: {
-                            console.log('403 , access_denied');
+                            console.log('403 , access_denied , 全局处理');
                             break;
                         }
                         case 404: {
-                            console.log('404 , Not Found');
+                            console.log('404 , Not Found , 全局处理');
                             break;
                         }
                         case 500: {
-                            console.log('500 , 服务器内部错误');
+                            console.log('500 , 服务器内部错误 , 全局处理');
                             break;
                         }
                         default: {
                             break;
                         }
                     }
-                    return Promise.resolve(response);
+                    if (response.ok) {
+                        return Promise.resolve(response);
+                    } else {
+                        return Promise.reject(response);
+                    }
                 }
             })
             .then((responseData) => {
