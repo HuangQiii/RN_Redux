@@ -50,6 +50,7 @@ const request = (url, token, method = 'get', body) => {
                 }
             })
             .catch((error) => {
+                console.log('catch');
                 reject(error);
             });
     });
