@@ -12,7 +12,7 @@ const request = (url, token, method = 'get', body) => {
             .then((response) => {
                 const status = response.status;
                 if (status === 200) {
-                    return response.json();
+                    return resolve(response.json());
                 } else {
                     switch (status) {
                         case 401: {
@@ -36,17 +36,13 @@ const request = (url, token, method = 'get', body) => {
                         }
                     }
                     if (response.ok) {
-                        return Promise.resolve(response);
+                        return resolve(response);
                     } else {
                         return Promise.reject(response);
                     }
                 }
             })
-            .then((responseData) => {
-                resolve(responseData);
-            })
             .catch((error) => {
-                console.log('catch');
                 reject(error);
             });
     });
