@@ -43,11 +43,7 @@ const request = (url, token, method = 'get', body) => {
                 }
             })
             .then((responseData) => {
-                if (responseData.error === undefined) {
-                    resolve(responseData);
-                } else {
-                    reject(responseData);
-                }
+                resolve(responseData);
             })
             .catch((error) => {
                 console.log('catch');
