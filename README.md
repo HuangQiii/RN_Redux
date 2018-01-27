@@ -13,27 +13,6 @@
 2. Link: `react-native link` . To link react-native-vector-icons.    
 3. Run on an Android Phone: `react-native run-android` . Then you can see it.
 
-### Contributing
-
-PRs and issues are welcome
-### License
-
-This project is licenced under the [MIT License](http://opensource.org/licenses/mit-license.html).
-
-### TODO List
-
-- [x] 组织——项目——实体层结构搭建
-- [x] 切换逻辑和模拟操作
-- [x] 网络情况变化情况
-- [x] 拆分Reducer
-- [ ] 搜索
-- [ ] 通用对象
-- [ ] FlatList替代ListView
-- [ ] 模拟数据
-- [ ] 彻底解决ListView优化渲染带来的问题
-- [ ] 更多逻辑...
-
-
 ### Use RequestUtil
 
 1. import: `import HttpUtil from '../utils/RequestUtil';`(use your owm path)
@@ -85,3 +64,23 @@ HttpUtil.request(url, token)
       })
   });
 ```
+
+### Contributing
+
+PRs and issues are welcome
+### License
+
+This project is licenced under the [MIT License](http://opensource.org/licenses/mit-license.html).
+
+### TODO List
+
+- [x] 组织——项目——实体层结构搭建
+- [x] 切换逻辑和模拟操作
+- [x] 网络情况变化情况
+- [x] 拆分Reducer
+- [ ] 搜索
+- [x] 通用对象
+- [ ] FlatList替代ListView
+- [ ] 模拟数据
+- [ ] 彻底解决ListView优化渲染带来的问题
+- [ ] 更多逻辑...
