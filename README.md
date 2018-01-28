@@ -15,7 +15,7 @@
 
 ### Use RequestUtil
 
-1. import: `import HttpUtil from '../utils/RequestUtil';`(use your owm path)
+1. import: `import HttpUtil from '../utils/RequestUtil';`(use your own path)
 2. Use: `HttpUtil.request(url, token).then(...)` .Like fetch. 
 
 - base
