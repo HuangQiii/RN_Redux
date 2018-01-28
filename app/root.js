@@ -6,7 +6,7 @@ import App from './containers/App';
 
 const store = configureStore();
 
-class Root extends Component {
+export default class Root extends Component {
     render() {
         return (
             <Provider store={store}>
@@ -15,6 +15,3 @@ class Root extends Component {
         )
     }
 }
-
-export default Root;
-

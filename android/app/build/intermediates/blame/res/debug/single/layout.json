@@ -145,7 +145,7 @@
     },
     {
         "merged": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\redbox_item_frame.xml",
-        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\layout\\redbox_item_frame.xml"
+        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.52.2\\res\\layout\\redbox_item_frame.xml"
     },
     {
         "merged": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -221,7 +221,7 @@
     },
     {
         "merged": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\redbox_item_title.xml",
-        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\layout\\redbox_item_title.xml"
+        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.52.2\\res\\layout\\redbox_item_title.xml"
     },
     {
         "merged": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -249,11 +249,11 @@
     },
     {
         "merged": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fps_view.xml",
-        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\layout\\fps_view.xml"
+        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.52.2\\res\\layout\\fps_view.xml"
     },
     {
         "merged": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dev_loading_view.xml",
-        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\layout\\dev_loading_view.xml"
+        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.52.2\\res\\layout\\dev_loading_view.xml"
     },
     {
         "merged": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -297,7 +297,7 @@
     },
     {
         "merged": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\redbox_view.xml",
-        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\layout\\redbox_view.xml"
+        "source": "D:\\mobile-cloud\\study\\GHY_Drawer\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.52.2\\res\\layout\\redbox_view.xml"
     },
     {
         "merged": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",

@@ -9,6 +9,10 @@ export function getProjects() {
         setTimeout(() => {
             dispatch(getProjectsSuccess(PRE_PRO));
         }, 5000);
+        // dispatch(requestPosts());
+        // return fetch(`url`)
+        //     .then(response => response.json())
+        //     .then(json => dispatch(receievePosts(josn)))
     }
 }
 
