@@ -1,7 +1,7 @@
 ## GHY_Menu_Redux版本
 光华园移动端左侧活动菜单的Redux版本，考虑了光华园的组织架构，由组织层——项目层——实体（分别对应各大组织——组织下的部门——个人），更好地服务用户。
 
-**Support:react-native 0.50.3 react 16.0.0**
+**Support:react-native 0.52.2 react 16.2.0**
 
 ### 功能说明
 - 选择用户组织（若已选择了项目再选择组织，会去除项目选择）
@@ -84,3 +84,15 @@ This project is licenced under the [MIT License](http://opensource.org/licenses/
 - [ ] 模拟数据
 - [ ] 彻底解决ListView优化渲染带来的问题
 - [ ] 更多逻辑...
+
+### 2018-1-28 commit log
+
+upgrade to react native 0.52.2
+
+Error: While resolving module react-native-vector-icons/MaterialIcons, the Haste package react-native-vector-icons was found.
+
+`
+rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json
+`
+
+and restart
