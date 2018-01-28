@@ -13,6 +13,58 @@
 2. Link: `react-native link` . To link react-native-vector-icons.    
 3. Run on an Android Phone: `react-native run-android` . Then you can see it.
 
+### Use RequestUtil
+
+1. import: `import HttpUtil from '../utils/RequestUtil';`(use your owm path)
+2. Use: `HttpUtil.request(url, token).then(...)` .Like fetch. 
+
+- base
+
+```
+HttpUtil.request(url, token)
+  .then((result) => {
+  console.log(result);
+});
+```
+
+- complex cases
+
+```
+HttpUtil.request(url, token)
+  .then((result) => {
+    if (result.status === 214) {
+      Promise.resolve(result.json())
+      .then((responseData) => {
+        console.log('214 , need do something')
+        console.log(responseData);
+      })
+    } else {
+      //200
+      console.log(result);
+    }
+  });
+```
+
+if the response status is 200,do something, if the stauts is 2xx(the fetch response.ok should be true),do other thing
+
+- complex cases catch
+
+```
+HttpUtil.request(url, token)
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    console.log(error.status);
+    //do something
+    //or need {error:xxx,des:xxx}
+    Promise.resolve(error.json())
+      .then((responseData) => {
+        console.log(responseData);
+      })
+  });
+```
+
 ### Contributing
 
 PRs and issues are welcome
@@ -27,7 +79,7 @@ This project is licenced under the [MIT License](http://opensource.org/licenses/
 - [x] 网络情况变化情况
 - [x] 拆分Reducer
 - [ ] 搜索
-- [ ] 通用对象
+- [x] 通用对象
 - [ ] FlatList替代ListView
 - [ ] 模拟数据
 - [ ] 彻底解决ListView优化渲染带来的问题
