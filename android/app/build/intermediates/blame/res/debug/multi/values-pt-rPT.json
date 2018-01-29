@@ -347,7 +347,7 @@
         ]
     },
     {
-        "outputFile": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+        "outputFile": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
         "map": [
             {
                 "to": {
@@ -358,13 +358,13 @@
                     "endOffset": 170
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 55,
+                        "startOffset": 284,
                         "endColumn": 119,
-                        "endOffset": 170
+                        "endOffset": 399
                     }
                 }
             },
@@ -377,13 +377,13 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 175,
+                        "startOffset": 404,
                         "endColumn": 107,
-                        "endOffset": 278
+                        "endOffset": 507
                     }
                 }
             },
@@ -396,13 +396,13 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 283,
+                        "startOffset": 512,
                         "endColumn": 122,
-                        "endOffset": 401
+                        "endOffset": 630
                     }
                 }
             },
@@ -415,13 +415,13 @@
                     "endOffset": 507
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 406,
+                        "startOffset": 635,
                         "endColumn": 105,
-                        "endOffset": 507
+                        "endOffset": 736
                     }
                 }
             },
@@ -434,13 +434,13 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 512,
+                        "startOffset": 741,
                         "endColumn": 106,
-                        "endOffset": 614
+                        "endOffset": 843
                     }
                 }
             },
@@ -453,13 +453,13 @@
                     "endOffset": 703
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 619,
+                        "startOffset": 848,
                         "endColumn": 88,
-                        "endOffset": 703
+                        "endOffset": 932
                     }
                 }
             },
@@ -472,13 +472,13 @@
                     "endOffset": 804
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 708,
+                        "startOffset": 937,
                         "endColumn": 100,
-                        "endOffset": 804
+                        "endOffset": 1033
                     }
                 }
             },
@@ -491,13 +491,13 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 809,
+                        "startOffset": 1038,
                         "endColumn": 123,
-                        "endOffset": 928
+                        "endOffset": 1157
                     }
                 }
             },
@@ -506,17 +506,17 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 933,
-                    "endColumn": 83,
-                    "endOffset": 1012
+                    "endColumn": 86,
+                    "endOffset": 1015
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 933,
-                        "endColumn": 83,
-                        "endOffset": 1012
+                        "startOffset": 1162,
+                        "endColumn": 86,
+                        "endOffset": 1244
                     }
                 }
             },
@@ -524,18 +524,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1017,
-                    "endColumn": 80,
-                    "endOffset": 1093
+                    "startOffset": 1020,
+                    "endColumn": 106,
+                    "endOffset": 1122
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1017,
-                        "endColumn": 80,
-                        "endOffset": 1093
+                        "startOffset": 1249,
+                        "endColumn": 106,
+                        "endOffset": 1351
                     }
                 }
             },
@@ -543,18 +543,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1098,
-                    "endColumn": 86,
-                    "endOffset": 1180
+                    "startOffset": 1127,
+                    "endColumn": 111,
+                    "endOffset": 1234
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1098,
-                        "endColumn": 86,
-                        "endOffset": 1180
+                        "startOffset": 1356,
+                        "endColumn": 111,
+                        "endOffset": 1463
                     }
                 }
             },
@@ -562,18 +562,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1185,
-                    "endColumn": 106,
-                    "endOffset": 1287
+                    "startOffset": 1239,
+                    "endColumn": 101,
+                    "endOffset": 1336
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1185,
-                        "endColumn": 106,
-                        "endOffset": 1287
+                        "startOffset": 1468,
+                        "endColumn": 101,
+                        "endOffset": 1565
                     }
                 }
             },
@@ -581,18 +581,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1292,
-                    "endColumn": 111,
-                    "endOffset": 1399
+                    "startOffset": 1341,
+                    "endColumn": 107,
+                    "endOffset": 1444
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1292,
-                        "endColumn": 111,
-                        "endOffset": 1399
+                        "startOffset": 1570,
+                        "endColumn": 107,
+                        "endOffset": 1673
                     }
                 }
             },
@@ -600,18 +600,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1404,
-                    "endColumn": 101,
-                    "endOffset": 1501
+                    "startOffset": 1449,
+                    "endColumn": 106,
+                    "endOffset": 1551
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1404,
-                        "endColumn": 101,
-                        "endOffset": 1501
+                        "startOffset": 1678,
+                        "endColumn": 106,
+                        "endOffset": 1780
                     }
                 }
             },
@@ -619,18 +619,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1506,
-                    "endColumn": 107,
-                    "endOffset": 1609
+                    "startOffset": 1556,
+                    "endColumn": 106,
+                    "endOffset": 1658
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1506,
-                        "endColumn": 107,
-                        "endOffset": 1609
+                        "startOffset": 1785,
+                        "endColumn": 106,
+                        "endOffset": 1887
                     }
                 }
             },
@@ -638,18 +638,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1614,
-                    "endColumn": 106,
-                    "endOffset": 1716
+                    "startOffset": 1663,
+                    "endColumn": 121,
+                    "endOffset": 1780
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1614,
-                        "endColumn": 106,
-                        "endOffset": 1716
+                        "startOffset": 1892,
+                        "endColumn": 121,
+                        "endOffset": 2009
                     }
                 }
             },
@@ -657,18 +657,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1721,
-                    "endColumn": 106,
-                    "endOffset": 1823
+                    "startOffset": 1785,
+                    "endColumn": 98,
+                    "endOffset": 1879
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1721,
-                        "endColumn": 106,
-                        "endOffset": 1823
+                        "startOffset": 2014,
+                        "endColumn": 98,
+                        "endOffset": 2108
                     }
                 }
             },
@@ -676,56 +676,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1828,
-                    "endColumn": 121,
-                    "endOffset": 1945
-                },
-                "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1828,
-                        "endColumn": 121,
-                        "endOffset": 1945
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1950,
-                    "endColumn": 98,
-                    "endOffset": 2044
-                },
-                "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1950,
-                        "endColumn": 98,
-                        "endOffset": 2044
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2049,
+                    "startOffset": 1884,
                     "endColumn": 100,
-                    "endOffset": 2145
+                    "endOffset": 1980
                 },
                 "from": {
-                    "file": "D:\\mobile-cloud\\new\\cloud-main-module\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "file": "D:\\mobile-cloud\\study\\RN_Redux\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2049,
+                        "startOffset": 2113,
                         "endColumn": 100,
-                        "endOffset": 2145
+                        "endOffset": 2209
                     }
                 }
             }
