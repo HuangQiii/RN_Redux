@@ -11,13 +11,13 @@ const initialState = {
     currentOrganization: '',
     dataOrgSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
     currentProject: '',
-    dataLatestOpenSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => true }),
+    dataLatestOpenSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
     list: '',
-    dataListSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => true }),
+    dataListSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
     downloading: [],
     loading: true,
 
-    dataSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => true }),
+    dataSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
     loading1: true
 }
 
@@ -34,13 +34,13 @@ export default function Menu(state = initialState, action) {
             return {
                 ...state,
                 loading: false,
-                dataListSource: state.dataListSource.cloneWithRows(action.bundles),
+                dataListSource: state.dataListSource.cloneWithRows(action.bundles.slice()),
             }
         case types.GET_LATEST_OPEN:
             return {
                 ...state,
                 loading: false,
-                dataLatestOpenSource: state.dataLatestOpenSource.cloneWithRows(action.latest),
+                dataLatestOpenSource: state.dataLatestOpenSource.cloneWithRows(action.latest.slice()),
             }
         case types.GET_CURRENT:
             return {
@@ -51,13 +51,13 @@ export default function Menu(state = initialState, action) {
         case types.GET_ORGANIZATIONS:
             return {
                 ...state,
-                dataOrgSource: state.dataOrgSource.cloneWithRows(action.organizations),
+                dataOrgSource: state.dataOrgSource.cloneWithRows(action.organizations.slice()),
             }
         case types.SELECT_PROJECT_NEW:
             return {
                 ...state,
                 currentProject: action.project,
-                dataLatestOpenSource: state.dataLatestOpenSource.cloneWithRows(action.latest),
+                dataLatestOpenSource: state.dataLatestOpenSource.cloneWithRows(action.latest.slice()),
             }
         case types.SELECT_PROJECT_FIRST:
             return {
@@ -68,7 +68,7 @@ export default function Menu(state = initialState, action) {
             return {
                 ...state,
                 currentProject: action.project,
-                dataLatestOpenSource: state.dataLatestOpenSource.cloneWithRows(action.latest),
+                dataLatestOpenSource: state.dataLatestOpenSource.cloneWithRows(action.latest.slice()),
             }
         case types.CHANGE_ORG_SHOW:
             return {
@@ -106,7 +106,7 @@ export default function Menu(state = initialState, action) {
             return {
                 ...state,
                 loading1: false,
-                dataSource: state.dataSource.cloneWithRows(action.projects),
+                dataSource: state.dataSource.cloneWithRows(action.projects.slice()),
             }
         default:
             return state;
