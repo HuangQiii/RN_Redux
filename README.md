@@ -84,7 +84,7 @@ This project is licenced under the [MIT License](http://opensource.org/licenses/
 - [x] 通用对象
 - [ ] FlatList替代ListView
 - [ ] 模拟数据
-- [ ] 彻底解决ListView优化渲染带来的问题
+- [x] 彻底解决ListView优化渲染带来的问题(引用变量问题)
 - [ ] 更多逻辑...
 
 ### 2018-1-28 commit log
