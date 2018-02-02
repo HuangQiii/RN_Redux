@@ -9,8 +9,10 @@
 - 模拟实体层的下载，可选择性配置
 
 ### Getting Started  
-1. Install: `npm istall`  
-2. Link: `react-native link` . To link react-native-vector-icons.    
+1. Install: `npm istall`  
+
+2. ~~Link: `react-native link` . To link react-native-vector-icons.~~
+
 3. Run on an Android Phone: `react-native run-android` . Then you can see it.
 
 ### Use RequestUtil
