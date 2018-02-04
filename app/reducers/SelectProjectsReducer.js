@@ -4,7 +4,7 @@ import { ScrollView, AppState, View, Dimensions, StyleSheet, Text, Image, Toucha
 import * as types from '../constants/MenuTypes';
 
 const initialState = {
-    dataSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
+    dataSource: [],
     loading1: true
 }
 
@@ -18,7 +18,7 @@ export default function SelectProjects(state = initialState, action) {
             return {
                 ...state,
                 loading1: false,
-                dataSource: state.dataSource.cloneWithRows(action.projects.slice()),
+                dataSource: action.projects.slice(),
             }
         default:
             return state;

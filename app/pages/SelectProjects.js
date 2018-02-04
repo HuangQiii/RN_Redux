@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, ListView, DeviceEventEmitter, NativeModules } from 'react-native';
+import { View, StyleSheet, ListView, DeviceEventEmitter, NativeModules, FlatList } from 'react-native';
 import List from '../components/List';
 import Button from '../components/Button';
 import Loading from '../components/Loading';
@@ -28,6 +28,8 @@ class SelectProjects extends Component {
         this.props.getProjects();
     }
 
+    keyExtractor = (project, index) => index
+
     chooseProject(project) {
         this.props.selectProject(project);
         this.props.navigation.dispatch({
@@ -37,11 +39,11 @@ class SelectProjects extends Component {
         });
     }
 
-    renderProject(project) {
+    renderProject = (project) => {
         return (
             <List
-                text={project}
-                onPress={() => this.chooseProject(project)}
+                text={project.item}
+                onPress={() => this.chooseProject(project.item)}
             />
         );
     }
@@ -54,10 +56,17 @@ class SelectProjects extends Component {
                     <Loading />
                 }
 
-                <ListView
+                {/*<ListView
                     dataSource={this.props.dataSource}
                     renderRow={this.renderProject.bind(this)}
-                />
+                />*/}
+                <FlatList
+                    keyExtractor={this.keyExtractor}
+                    renderItem={this.renderProject}
+                    data={this.props.dataSource}
+                >
+
+                </FlatList>
             </View >
         );
     }

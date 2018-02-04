@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, AppState, View, Dimensions, StyleSheet, Text, Image, TouchableOpacity, ListView, TouchableHighlight, DeviceEventEmitter, NetInfo, NativeModules } from 'react-native';
+import { ScrollView, AppState, View, Dimensions, StyleSheet, Text, Image, TouchableOpacity, ListView, FlatList, TouchableHighlight, DeviceEventEmitter, NetInfo, NativeModules } from 'react-native';
 import List from '../components/List';
 import Loading from '../components/Loading';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -62,13 +62,13 @@ class Menu extends Component {
         }
     }
 
-    renderOrg(organization) {
-        const bgColor = organization == this.props.currentOrganization ? '#F3F3F3' : '#FEFEFE';
+    renderOrg = (organization) => {
+        const bgColor = organization.item == this.props.currentOrganization ? '#F3F3F3' : '#FEFEFE';
         return (
             <List
-                text={organization}
+                text={organization.item}
                 bgColor={bgColor}
-                onPress={() => this.selectOrganization(organization)}
+                onPress={() => this.selectOrganization(organization.item)}
             />
         );
     }
@@ -126,9 +126,14 @@ class Menu extends Component {
                     this.props.organizationShow &&
 
                     <ScrollView style={{ position: 'absolute', marginTop: 137, top: 0, left: 0, width: width, height: height - 137, backgroundColor: '#FEFEFE', zIndex: 99 }}>
-                        <ListView
+                        {/*<ListView
                             dataSource={this.props.dataOrgSource}
                             renderRow={this.renderOrg.bind(this)}
+                        />*/}
+                        <FlatList
+                            keyExtractor={(organization, index) => index}
+                            data={this.props.dataOrgSource}
+                            renderItem={this.renderOrg}
                         />
                     </ScrollView>
 

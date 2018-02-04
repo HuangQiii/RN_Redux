@@ -8,7 +8,7 @@ export function getProjects() {
         dispatch(getProjectsIng());
         setTimeout(() => {
             dispatch(getProjectsSuccess(PRE_PRO));
-        }, 5000);
+        }, 2000);
         // dispatch(requestPosts());
         // return fetch(`url`)
         //     .then(response => response.json())

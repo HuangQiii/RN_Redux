@@ -1,7 +1,7 @@
 'use strict';
 import * as types from '../constants/MenuTypes';
 
-const PRE_ORG = new Array(20).fill('Hello');
+const PRE_ORG = Array.from({ length: 100 }, (item, index) => 'Hello' + index);
 const LATEST_OPEN = ['B', 'C', 'E'];
 const LIST_ARRAY = [
     { name: 'AA', icon: 'md-home' },

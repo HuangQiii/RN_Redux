@@ -80,7 +80,7 @@ This project is licenced under the [MIT License](http://opensource.org/licenses/
 - [x] 拆分Reducer
 - [ ] 搜索
 - [x] 通用对象
-- [ ] FlatList替代ListView
+- [x] FlatList替代ListView
 - [ ] 模拟数据
 - [ ] 彻底解决ListView优化渲染带来的问题
 - [ ] 更多逻辑...

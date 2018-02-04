@@ -9,7 +9,7 @@ const initialState = {
     userEmail: '',
     organizationShow: false,
     currentOrganization: '',
-    dataOrgSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
+    dataOrgSource: [],
     currentProject: '',
     dataLatestOpenSource: new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 }),
     list: '',
@@ -51,7 +51,7 @@ export default function Menu(state = initialState, action) {
         case types.GET_ORGANIZATIONS:
             return {
                 ...state,
-                dataOrgSource: state.dataOrgSource.cloneWithRows(action.organizations.slice()),
+                dataOrgSource: action.organizations.slice(),
             }
         case types.SELECT_PROJECT_NEW:
             return {
@@ -65,6 +65,7 @@ export default function Menu(state = initialState, action) {
                 currentProject: action.project,
             }
         case types.SELECT_PROJECT_REST:
+            console.log(Array.isArray(action.latest))
             return {
                 ...state,
                 currentProject: action.project,
