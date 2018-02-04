@@ -9,8 +9,10 @@
 - 模拟实体层的下载，可选择性配置
 
 ### Getting Started  
-1. Install: `npm istall`  
-2. Link: `react-native link` . To link react-native-vector-icons.    
+1. Install: `npm istall`  
+
+2. ~~Link: `react-native link` . To link react-native-vector-icons.~~
+
 3. Run on an Android Phone: `react-native run-android` . Then you can see it.
 
 ### Use RequestUtil
@@ -82,7 +84,7 @@ This project is licenced under the [MIT License](http://opensource.org/licenses/
 - [x] 通用对象
 - [x] FlatList替代ListView
 - [ ] 模拟数据
-- [ ] 彻底解决ListView优化渲染带来的问题
+- [x] 彻底解决ListView优化渲染带来的问题(引用变量问题)
 - [ ] 更多逻辑...
 
 ### 2018-1-28 commit log
